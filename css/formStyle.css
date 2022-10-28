@@ -1,0 +1,260 @@
+/* body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-image: url(22.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+formWraper{
+    display: flex;
+    width: 55%;
+    height: 500px;
+    background-color: yellowgreen;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow:0px 0px 20px black;
+}
+
+.formDiv{
+    width: 50%;
+    padding: 8%;
+    background-color: lavender;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+}
+.formDiv h2 {
+    color: green;
+    margin-top: -5px;
+}
+ 
+.welcomeDiv{
+    width: 50%;
+    padding: 10px;
+    background-image: url('Ahmed.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+}  
+.welcomeDiv h2 {
+    margin-top: 150px;
+}
+ 
+ 
+.socialBtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:lavender;
+    margin: 5px;
+    line-height: 30px;
+    box-shadow: 0px 0px 10px black;    
+}
+.text{
+    font-size: small;
+}
+.orDiv {
+    width: 10%;
+    margin: 0 auto;
+    background-color: lavender;
+    position: relative;
+    top: -16px;
+    justify-content: center;
+}
+ 
+.formGroup{
+    width: 100%;
+    position: relative;
+}
+.formGroup input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+    padding-left: 30px !important;
+}
+ 
+ 
+.formGroup i {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: grey;
+    font-size: smaller;
+    margin: 10px !important;
+}
+ 
+ 
+input::placeholder {
+    position: relative;
+    left: 10px;
+}
+input:focus{
+    border-color: red;
+}
+.checkBox{
+    width: 100%;
+    margin-top: 2px;
+}
+ 
+.btn{
+    width: 70%;
+    padding: 15px;
+    background-color: green;
+    margin-top: 15px;
+    color: lavender;
+    border-radius: 20px;
+    border-style: none;
+}
+.btn2{
+    width: 70%;
+    padding: 15px;
+    background-color:transparent;
+    margin-top: 15px;
+    color: lavender;
+    border-radius: 20px;
+    border-style: none;
+    border: 2px solid rgb(247, 243, 243);
+}
+ 
+.btn:hover, .btn2:hover, .icon:hover{
+    background-color: rgb(7, 80, 35);
+    color: whitesmoke;
+}
+
+
+@media screen and (max-width: 1000px){
+    .formWraper{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 670px){
+    .formDiv{
+        width: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .welcomeDiv{
+        display: none;
+    }
+} */
+
+
+
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://www.hmablogs.com/wp-content/uploads/2021/09/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  /* align items center vertically and horizontally  */
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items:center !important;
+    height: 100vh;
+  }
+  .form{
+    width: 350px;
+    height: 450px;
+    background-color: rgba(41, 39, 39, 0.3);
+    box-shadow: 0 5px 30px black;
+  }
+  .btn button {
+    padding: 3px;
+    margin: 30px 0px 40px 30px;
+    border-style: none;
+    background-color: transparent;
+    color: beige;
+    font-size: 18px;
+    font-weight: 550;
+  }
+  .formGroup{
+    display: flex;
+    justify-content: center;
+  }
+  .formGroup input{
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+  }
+  input:focus {
+    outline: none !important;
+    border-bottom: 2px solid rgb(91, 243, 131);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+  }
+  ::placeholder {
+    color: white;
+  }
+  .checkBox{
+    display: flex;
+    justify-content: center;
+    margin: 16px!important;
+  }
+   
+  #checkbox{
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+  }
+  .text{
+    color: rgb(199, 197, 197);
+    font-size: 13px;
+  }
+  .btn2{
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(10, 136, 43);
+    border-style: none;
+    color: white;
+    font-weight: 600;
+  }
+  .btn2:hover{
+    background-color: rgba(10, 136, 43, 0.5);
+  }
+  .btn button:hover{
+    border-bottom: 2px solid rgb(91, 243, 131);
+  }
+   
+  /* hide signup form */
+  .login{
+    display: none;
+  }
+   
+  /* Login form code */
+  .login{
+    margin-top: 40px;
+  }
+  .login .checkBox{
+    margin-top: 30px !important;
+  }
+  
+  

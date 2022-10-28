@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+form.foom {
+    text-align: center;
+    padding: 40px 20px;
+    background: bisque;
+    width: 68%;
+    margin: auto;
+    
+}
+
+form.foom h1 {
+    font-size: 43px;
+    font-style: oblique;
+    text-overflow: inherit;
+    text-shadow: 1px 1x 1px white;
+    margin-bottom: 17px;
+    text-decoration-line: underline;
+}
+
+.one input {
+    width: 49%;
+    padding: 13px 0px;
+    text-decoration: none;
+    border: none;
+    border-bottom: outset;
+    margin-bottom: 10px;
+}
+.tow input {
+    width: 49%;
+    padding: 13px 0px;
+    text-decoration: none;
+    border: none;
+    border-bottom: outset;
+    margin-bottom: 10px;
+}
+.three input {
+    width: 49%;
+    padding: 13px 0px;
+    text-decoration: none;
+    border: none;
+    border-bottom: outset;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    
+    font-size: 15px;
+    
+    padding: 5px;
+}
+
+input:hover{
+    background: wheat;
+
+}
